@@ -5,8 +5,8 @@
 int main() {
 
 	printf("Hola mundo.\n");
-	
-	return EXIT_SUCCESS;	
+
+	return EXIT_SUCCESS;
 }
 
 
