@@ -4,14 +4,15 @@
 
 int main(){
 
-	int color1, color2, acumulador;
+	int color1, color2, color3, resultado;
 	
-	MENU:
+	menu:
 
 	printf ("¿Cual es el primer color que ves?: (Indique el nº)\n"
 		"\t1. Rojo \n"
 		"\t2. Amarillo \n"
 		"\t3. Azul\n"
+		"\t0. Ninguno\n"
 	       );
 
 	scanf(" %i", &color1);
@@ -21,26 +22,45 @@ int main(){
 		"\t1. Rojo \n"
 		"\t2. Amarillo \n"
 		"\t3. Azul\n"
+		"\t0. Ninguno\n"
 	       );
 
 	scanf(" %i", &color2);
 
-	acumulador = color1 * color2 + 10;
 	
-	if (acumulador == 12){
-		printf ("Su color es Naranja\n");
+	printf ("¿Cual es el tercer color que ves? (Indique el nº)\n"
+		"\t1. Rojo \n"
+		"\t2. Amarillo \n"
+		"\t3. Azul\n"
+		"\t0. Ninguno\n"
+	       );
 
+	scanf(" %i", &color3);
+
+	resultado = color1 + color2 + color3 + 10;
+	
+
+	if (resultado == 10){
+		printf("Su color es Negro\n");
 	}
-	
-	if (acumulador == 13){
-		printf ("Su color es Morado\n");
-	
+        
+
+	if (resultado == 16){
+		printf("Su color es Blanco\n");
 	}
 
-	if (acumulador == 16){
-		printf ("Su color es Verde \n");
-	
-	} 
+	if (resultado == 13){
+		printf("Su color es Naranja\n");
+	}
+
+	if (resultado == 14){
+		printf("Su color es Morado\n");
+	}
+
+	if (resultado == 15){
+		printf("Su color es Verde\n");
+	}
+
 	
 
  return EXIT_SUCCESS;
