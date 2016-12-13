@@ -1,4 +1,4 @@
-#include <stdio.h>  //Para trabajar con tuberias*/
+i#include <stdio.h>  //Para trabajar con tuberias*/
 #include <stdlib.h>
 
 int main(){
