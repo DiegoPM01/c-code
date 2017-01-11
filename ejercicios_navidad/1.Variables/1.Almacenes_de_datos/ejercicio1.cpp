@@ -8,6 +8,8 @@ int main(){
 	printf("¿Cual es tu edad?: \n");
 	scanf(" %i", &edad);
 
+	printf("Su edad es %i \n", edad);
+
  return EXIT_SUCCESS;
 }
 

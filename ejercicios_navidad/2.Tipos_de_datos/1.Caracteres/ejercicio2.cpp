@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-	char cadena[] = "hola";
+	char cadena[] = "Hola";
 	
 	for (int i = 0; i < sizeof(cadena)/sizeof(char) -1; i++)
 
