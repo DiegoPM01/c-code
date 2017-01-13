@@ -19,26 +19,26 @@ int main(){
     if (rojo)
         if (amarillo)
             if (azul)
-                printf("Blanco");
+                printf("Su color es Blanco");
             else
-                printf("Naranja");
+                printf("Su color es Naranja");
         else
             if (azul)
-                printf("morado");
+                printf("Su color es morado");
             else
-                printf("Rojo");
+                printf("Su color es Rojo");
 
     else
         if (amarillo)
             if (azul)
-                printf("verde");
+                printf("Su color es verde");
             else
-                printf("amarillo");
+                printf("Su color es amarillo");
         else
             if (azul)
-                printf("azul");
+                printf("Su color es azul");
             else
-                printf("negro");
+                printf("Su color es negro");
 
 
     printf("\n");
