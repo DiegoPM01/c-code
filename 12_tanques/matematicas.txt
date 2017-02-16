@@ -1,0 +1,5 @@
+Matematicas:
+
+Velocidad --> Es lo que cambia la velocidad por segundo.
+
+Derivada -> Ver variacion de algo a lo largo del tiempo (si sube o baja).
