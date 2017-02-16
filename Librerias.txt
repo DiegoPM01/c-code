@@ -1,0 +1,72 @@
+*********************
+*					*
+*	LIBRERIAS DE C	*
+*					*
+*********************
+
+------------------------
+#include <stdio.h>
+------------------------
+
+	fclose()
+
+	fopen()
+
+	rewind()
+
+	fflush()
+
+	fputs() -> 
+
+	ftell()
+
+	getc() --> Devuelve un caracter desde un fichero.
+
+
+----------------------
+#include <string.h>
+----------------------
+
+	memset() : sobre-escribe un área de memoria con un patrón de bytes dado.
+
+	strcat() : Añade una cadena al final de otra.
+
+		strncat() : Añade los "n" primeros caracteres al final de otra
+
+	strcmp() : Compara dos cadenas.
+
+	strcpy() : Copia una cadena en otra.
+
+	strlen() : Devuelve la longuitud de una cadena.
+
+
+
+----------------------
+#include <stdlib.h>
+----------------------
+
+
+	atof 	cadena de caracteres a coma flotante
+	atoi 	cadena de caracteres a entero
+	atol 	cadena de caracteres a entero tamaño largo
+	strtod cadena de caracteres a coma flotante tamaño doble
+	strtol 	cadena de caracteres a entero largo
+	strtoul cadena de caracteres a entero largo sin signo (positivo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <string.h>
+#include <time.h>
+#include <ctype.h>
