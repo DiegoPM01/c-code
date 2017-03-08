@@ -31,7 +31,7 @@ double f(int exponente){
 
 int main(int argc, char *argv[]){
 
-	f(-1);
+	f(2);
 
  return EXIT_SUCCESS;
 }
